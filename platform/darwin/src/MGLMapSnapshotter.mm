@@ -771,8 +771,9 @@ const CGFloat MGLSnapshotterMinimumPixelSize = 64;
                    .withAssetPath([NSBundle mainBundle].resourceURL.path.UTF8String);
 
     // Create the snapshotter
+    auto localFontFamilyName = config.localFontFamilyName ? std::string(config.localFontFamilyName.UTF8String) : nullptr;
     _mbglMapSnapshotter = std::make_unique<mbgl::MapSnapshotter>(
-        style, size, pixelRatio, cameraOptions, coordinateBounds, config.localFontFamilyName, resourceOptions);
+        style, size, pixelRatio, cameraOptions, coordinateBounds, localFontFamilyName, resourceOptions);
 }
 
 @end

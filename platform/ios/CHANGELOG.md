@@ -9,9 +9,13 @@ Mapbox welcomes participation and contributions from everyone. Please read [CONT
 * Added the `in` expression function for testing whether a value is included in an array expression or whether a string is a substring of another string. Use this function in expressions in style JSON or with the `MGL_FUNCTION()` syntax in an `NSExpression` format string. ([#16162](https://github.com/mapbox/mapbox-gl-native/pull/16162))
 * Added the `within` expression function for testing whether the evaluated feature lies within the given GeoJSON object. Use this function in expressions in style JSON or with the `MGL_FUNCTION()` syntax in an `NSExpression` format string. ([#16157](https://github.com/mapbox/mapbox-gl-native/pull/16157))
 * Added the `MGLLineStyleLayer.lineSortKey` and `MGLFillStyleLayer.fillSortKey` properties. ([#179](https://github.com/mapbox/mapbox-gl-native-ios/pull/179), [#16194](https://github.com/mapbox/mapbox-gl-native/pull/16194), [#16220](https://github.com/mapbox/mapbox-gl-native/pull/16220))
-* The `-[MGLStyle localizeLabelsIntoLocale:]` and `-[NSExpression mgl_expressionLocalizedIntoLocale:]` methods can now localize text into Traditional Chinese and Vietnamese. ([#173](https://github.com/mapbox/mapbox-gl-native-ios/pull/173))
 * Fixed an issue where an `MGLSymbolStyleLayer.lineDashPattern` value of `{1, 0}` resulted in hairline gaps. ([#16202](https://github.com/mapbox/mapbox-gl-native/pull/16202))
 * Improved the performance of loading a style that has many style images. ([#16187](https://github.com/mapbox/mapbox-gl-native/pull/16187))
+
+### Localization and internationalization
+
+* The `MGLIdeographicFontFamilyName` Info.plist key can now be set to the display names or PostScript names of individual fonts. ([#189](https://github.com/mapbox/mapbox-gl-native-ios/pull/189))
+* The `-[MGLStyle localizeLabelsIntoLocale:]` and `-[NSExpression mgl_expressionLocalizedIntoLocale:]` methods can now localize text into Traditional Chinese and Vietnamese. ([#173](https://github.com/mapbox/mapbox-gl-native-ios/pull/173))
 
 ### Other changes
 
