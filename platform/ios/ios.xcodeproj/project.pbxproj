@@ -418,11 +418,11 @@
 		CA8FBC0921A47BB100D1203C /* MGLRendererConfigurationTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA8FBC0821A47BB100D1203C /* MGLRendererConfigurationTests.mm */; };
 		CA94E5FB237D21030037AEA0 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8847D21CBAF91600AB86E3 /* Mapbox.framework */; };
 		CA94E5FC237D21030037AEA0 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA8847D21CBAF91600AB86E3 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CA94E601237EF4110037AEA0 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA96299B23731199004F1330 /* MapboxMobileEvents.framework */; };
 		CAA69DA5206DCD0E007279CD /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA4A26961CB6E795000B7809 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CAAA65D92321BBA900F08A39 /* MGLTestAssertionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAA65D82321BBA900F08A39 /* MGLTestAssertionHandler.m */; };
 		CAB369E5237471D600592F74 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7839A3235E11FC00D4D606 /* libz.tbd */; };
 		CAB36C3B2374D11600592F74 /* libMapboxMobileEvents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB36C3A2374D11600592F74 /* libMapboxMobileEvents.a */; };
+		CAB849DF2417C70000BE64D4 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB849D22417C6C800BE64D4 /* MapboxMobileEvents.framework */; };
 		CABC52C22368CB5100B7E543 /* sideload_sat.db in Resources */ = {isa = PBXBuildFile; fileRef = 1F7839A5235E137000D4D606 /* sideload_sat.db */; };
 		CAD9D0AA22A86D6F001B25EE /* MGLResourceTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAD9D0A922A86D6F001B25EE /* MGLResourceTests.mm */; };
 		CAE7AD5520F46EF5003B6782 /* MGLMapSnapshotterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7AD5420F46EF5003B6782 /* MGLMapSnapshotterSwiftTests.swift */; };
@@ -697,6 +697,55 @@
 			proxyType = 1;
 			remoteGlobalIDString = DA8847D11CBAF91600AB86E3;
 			remoteInfo = dynamic;
+		};
+		CAB849D12417C6C800BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 404807B91EA186D8008A6D50;
+			remoteInfo = MapboxMobileEvents;
+		};
+		CAB849D32417C6C800BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 408596531ED084C0003BD29D;
+			remoteInfo = libMapboxMobileEvents;
+		};
+		CAB849D52417C6C800BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 404807C21EA186D8008A6D50;
+			remoteInfo = MMEXCTests;
+		};
+		CAB849D72417C6C800BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CDC34ED23502F8700852FF0;
+			remoteInfo = MMECedarTests;
+		};
+		CAB849D92417C6C800BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C65A2662256C110006E3FED;
+			remoteInfo = MMETestHost;
+		};
+		CAB849DB2417C6C800BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CF000682371037E009A2700;
+			remoteInfo = "MMETestHost (Static)";
+		};
+		CAB849DD2417C6F700BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 404807B81EA186D8008A6D50;
+			remoteInfo = MapboxMobileEvents;
 		};
 		CABE5DAB2072FA660003AF3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1066,6 +1115,7 @@
 		CAAA65D72321BBA900F08A39 /* MGLTestAssertionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MGLTestAssertionHandler.h; path = ../../darwin/test/MGLTestAssertionHandler.h; sourceTree = "<group>"; };
 		CAAA65D82321BBA900F08A39 /* MGLTestAssertionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MGLTestAssertionHandler.m; path = ../../darwin/test/MGLTestAssertionHandler.m; sourceTree = "<group>"; };
 		CAB36C3A2374D11600592F74 /* libMapboxMobileEvents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMapboxMobileEvents.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapboxMobileEvents.xcodeproj; path = "vendor/mapbox-events-ios/MapboxMobileEvents.xcodeproj"; sourceTree = "<group>"; };
 		CAD9D0A922A86D6F001B25EE /* MGLResourceTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MGLResourceTests.mm; path = ../../darwin/test/MGLResourceTests.mm; sourceTree = "<group>"; };
 		CAE5AE2B2389FBF000E4A5A1 /* ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ios.xcconfig; sourceTree = "<group>"; };
 		CAE7AD5320F46EF5003B6782 /* integration-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "integration-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -1376,6 +1426,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB849DF2417C70000BE64D4 /* MapboxMobileEvents.framework in Frameworks */,
 				DA0BDD202407C12600DAA576 /* libmbgl-core.a in Frameworks */,
 				CAB369E5237471D600592F74 /* libz.tbd in Frameworks */,
 				DA35D9CE240920AB0013ECB0 /* libmbgl-vendor-csscolorparser.a in Frameworks */,
@@ -1383,7 +1434,6 @@
 				DA35D9D1240920B60013ECB0 /* libmbgl-vendor-parsedate.a in Frameworks */,
 				358B3DB92359E4A0007BEB26 /* libsqlite3.tbd in Frameworks */,
 				96802766226556C5006BA4A1 /* libmbxaccounts.a in Frameworks */,
-				CA94E601237EF4110037AEA0 /* MapboxMobileEvents.framework in Frameworks */,
 				DA27C24E1CBB3811000B0ECD /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1735,9 +1785,23 @@
 			name = Annotations;
 			sourceTree = "<group>";
 		};
+		CAB849C82417C6C800BE64D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB849D22417C6C800BE64D4 /* MapboxMobileEvents.framework */,
+				CAB849D42417C6C800BE64D4 /* libMapboxMobileEvents.a */,
+				CAB849D62417C6C800BE64D4 /* MMEXCTests.xctest */,
+				CAB849D82417C6C800BE64D4 /* MMECedarTests.xctest */,
+				CAB849DA2417C6C800BE64D4 /* MMETestHost.app */,
+				CAB849DC2417C6C800BE64D4 /* MMETestHost (Static).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		DA1DC9411CB6C1C2006E619F = {
 			isa = PBXGroup;
 			children = (
+				CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */,
 				1F7839A5235E137000D4D606 /* sideload_sat.db */,
 				402E9DE21CD3A56500FD4519 /* Playground */,
 				DA1DC94C1CB6C1C2006E619F /* Demo App */,
@@ -2652,6 +2716,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				CAB849DE2417C6F700BE64D4 /* PBXTargetDependency */,
 			);
 			name = dynamic;
 			productName = framework;
@@ -2794,6 +2859,12 @@
 			mainGroup = DA1DC9411CB6C1C2006E619F;
 			productRefGroup = DA1DC94B1CB6C1C2006E619F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CAB849C82417C6C800BE64D4 /* Products */;
+					ProjectRef = CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DA1DC9491CB6C1C2006E619F /* iosapp */,
@@ -2807,6 +2878,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CAB849D22417C6C800BE64D4 /* MapboxMobileEvents.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MapboxMobileEvents.framework;
+			remoteRef = CAB849D12417C6C800BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849D42417C6C800BE64D4 /* libMapboxMobileEvents.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMapboxMobileEvents.a;
+			remoteRef = CAB849D32417C6C800BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849D62417C6C800BE64D4 /* MMEXCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MMEXCTests.xctest;
+			remoteRef = CAB849D52417C6C800BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849D82417C6C800BE64D4 /* MMECedarTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MMECedarTests.xctest;
+			remoteRef = CAB849D72417C6C800BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849DA2417C6C800BE64D4 /* MMETestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MMETestHost.app;
+			remoteRef = CAB849D92417C6C800BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849DC2417C6C800BE64D4 /* MMETestHost (Static).app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "MMETestHost (Static).app";
+			remoteRef = CAB849DB2417C6C800BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		16376B051FFD9DAF0000563E /* Resources */ = {
@@ -3288,6 +3404,11 @@
 			isa = PBXTargetDependency;
 			target = DA8847D11CBAF91600AB86E3 /* dynamic */;
 			targetProxy = CA94E5FD237D21030037AEA0 /* PBXContainerItemProxy */;
+		};
+		CAB849DE2417C6F700BE64D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapboxMobileEvents;
+			targetProxy = CAB849DD2417C6F700BE64D4 /* PBXContainerItemProxy */;
 		};
 		CABE5DAC2072FA660003AF3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
