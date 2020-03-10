@@ -747,6 +747,104 @@
 			remoteGlobalIDString = 404807B81EA186D8008A6D50;
 			remoteInfo = MapboxMobileEvents;
 		};
+		CAB849F5241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B932B58CBB574EF7A1FA3B81;
+			remoteInfo = "mapbox-base-io";
+		};
+		CAB849F7241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E9668BCB5A449A1A827F0D1;
+			remoteInfo = "mbgl-benchmark";
+		};
+		CAB849F9241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98F8E7C4ADEB46288460AE2A;
+			remoteInfo = "mbgl-core";
+		};
+		CAB849FB241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E5BD20E11EC4A768EF95398;
+			remoteInfo = "mbgl-render-test";
+		};
+		CAB849FD241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 22FA708E9D104ED194CE1FAA;
+			remoteInfo = "mbgl-test";
+		};
+		CAB849FF241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46DDEE3C5402465A8CCB756E;
+			remoteInfo = "mbgl-vendor-benchmark";
+		};
+		CAB84A01241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F75D43736AA046949845BF28;
+			remoteInfo = "mbgl-vendor-csscolorparser";
+		};
+		CAB84A03241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43D636E78ABF41308040E12F;
+			remoteInfo = "mbgl-vendor-googletest";
+		};
+		CAB84A05241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 210E3F54C05D4A51ABCC9802;
+			remoteInfo = "mbgl-vendor-icu";
+		};
+		CAB84A07241824B500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 586586AEEDC04279AC847B9C;
+			remoteInfo = "mbgl-vendor-parsedate";
+		};
+		CAB84A09241824E500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBCE29B26CA4D168ECF10BE;
+			remoteInfo = "mbgl-core";
+		};
+		CAB84A0B241824E500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 610B61D70D364764A6F678CB;
+			remoteInfo = "mbgl-vendor-icu";
+		};
+		CAB84A0D241824E500BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E6CB94F6403B47149286A1F2;
+			remoteInfo = "mbgl-vendor-parsedate";
+		};
+		CAB84A0F241824F200BE64D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB056EAC49A45989EA0D1BF;
+			remoteInfo = "mbgl-vendor-csscolorparser";
+		};
 		CABE5DAB2072FA660003AF3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA1DC9421CB6C1C2006E619F /* Project object */;
@@ -1116,6 +1214,7 @@
 		CAAA65D82321BBA900F08A39 /* MGLTestAssertionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MGLTestAssertionHandler.m; path = ../../darwin/test/MGLTestAssertionHandler.m; sourceTree = "<group>"; };
 		CAB36C3A2374D11600592F74 /* libMapboxMobileEvents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMapboxMobileEvents.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapboxMobileEvents.xcodeproj; path = "vendor/mapbox-events-ios/MapboxMobileEvents.xcodeproj"; sourceTree = "<group>"; };
+		CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Mapbox GL Native.xcodeproj"; path = "../../build/ios/Mapbox GL Native.xcodeproj"; sourceTree = "<group>"; };
 		CAD9D0A922A86D6F001B25EE /* MGLResourceTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MGLResourceTests.mm; path = ../../darwin/test/MGLResourceTests.mm; sourceTree = "<group>"; };
 		CAE5AE2B2389FBF000E4A5A1 /* ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ios.xcconfig; sourceTree = "<group>"; };
 		CAE7AD5320F46EF5003B6782 /* integration-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "integration-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -1798,10 +1897,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CAB849E1241824B500BE64D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB849F6241824B500BE64D4 /* libmapbox-base-io.a */,
+				CAB849F8241824B500BE64D4 /* libmbgl-benchmark.a */,
+				CAB849FA241824B500BE64D4 /* libmbgl-core.a */,
+				CAB849FC241824B500BE64D4 /* libmbgl-render-test.a */,
+				CAB849FE241824B500BE64D4 /* libmbgl-test.a */,
+				CAB84A00241824B500BE64D4 /* libmbgl-vendor-benchmark.a */,
+				CAB84A02241824B500BE64D4 /* libmbgl-vendor-csscolorparser.a */,
+				CAB84A04241824B500BE64D4 /* libmbgl-vendor-googletest.a */,
+				CAB84A06241824B500BE64D4 /* libmbgl-vendor-icu.a */,
+				CAB84A08241824B500BE64D4 /* libmbgl-vendor-parsedate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		DA1DC9411CB6C1C2006E619F = {
 			isa = PBXGroup;
 			children = (
 				CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */,
+				CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */,
 				1F7839A5235E137000D4D606 /* sideload_sat.db */,
 				402E9DE21CD3A56500FD4519 /* Playground */,
 				DA1DC94C1CB6C1C2006E619F /* Demo App */,
@@ -2717,6 +2834,10 @@
 			);
 			dependencies = (
 				CAB849DE2417C6F700BE64D4 /* PBXTargetDependency */,
+				CAB84A10241824F200BE64D4 /* PBXTargetDependency */,
+				CAB84A0A241824E500BE64D4 /* PBXTargetDependency */,
+				CAB84A0C241824E500BE64D4 /* PBXTargetDependency */,
+				CAB84A0E241824E500BE64D4 /* PBXTargetDependency */,
 			);
 			name = dynamic;
 			productName = framework;
@@ -2861,6 +2982,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = CAB849E1241824B500BE64D4 /* Products */;
+					ProjectRef = CAB849E0241824B500BE64D4 /* Mapbox GL Native.xcodeproj */;
+				},
+				{
 					ProductGroup = CAB849C82417C6C800BE64D4 /* Products */;
 					ProjectRef = CAB849C72417C6C800BE64D4 /* MapboxMobileEvents.xcodeproj */;
 				},
@@ -2920,6 +3045,76 @@
 			fileType = wrapper.application;
 			path = "MMETestHost (Static).app";
 			remoteRef = CAB849DB2417C6C800BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849F6241824B500BE64D4 /* libmapbox-base-io.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmapbox-base-io.a";
+			remoteRef = CAB849F5241824B500BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849F8241824B500BE64D4 /* libmbgl-benchmark.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmbgl-benchmark.a";
+			remoteRef = CAB849F7241824B500BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849FA241824B500BE64D4 /* libmbgl-core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmbgl-core.a";
+			remoteRef = CAB849F9241824B500BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849FC241824B500BE64D4 /* libmbgl-render-test.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmbgl-render-test.a";
+			remoteRef = CAB849FB241824B500BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB849FE241824B500BE64D4 /* libmbgl-test.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmbgl-test.a";
+			remoteRef = CAB849FD241824B500BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB84A00241824B500BE64D4 /* libmbgl-vendor-benchmark.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmbgl-vendor-benchmark.a";
+			remoteRef = CAB849FF241824B500BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB84A02241824B500BE64D4 /* libmbgl-vendor-csscolorparser.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmbgl-vendor-csscolorparser.a";
+			remoteRef = CAB84A01241824B500BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB84A04241824B500BE64D4 /* libmbgl-vendor-googletest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmbgl-vendor-googletest.a";
+			remoteRef = CAB84A03241824B500BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB84A06241824B500BE64D4 /* libmbgl-vendor-icu.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmbgl-vendor-icu.a";
+			remoteRef = CAB84A05241824B500BE64D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAB84A08241824B500BE64D4 /* libmbgl-vendor-parsedate.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmbgl-vendor-parsedate.a";
+			remoteRef = CAB84A07241824B500BE64D4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -3409,6 +3604,26 @@
 			isa = PBXTargetDependency;
 			name = MapboxMobileEvents;
 			targetProxy = CAB849DD2417C6F700BE64D4 /* PBXContainerItemProxy */;
+		};
+		CAB84A0A241824E500BE64D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mbgl-core";
+			targetProxy = CAB84A09241824E500BE64D4 /* PBXContainerItemProxy */;
+		};
+		CAB84A0C241824E500BE64D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mbgl-vendor-icu";
+			targetProxy = CAB84A0B241824E500BE64D4 /* PBXContainerItemProxy */;
+		};
+		CAB84A0E241824E500BE64D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mbgl-vendor-parsedate";
+			targetProxy = CAB84A0D241824E500BE64D4 /* PBXContainerItemProxy */;
+		};
+		CAB84A10241824F200BE64D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mbgl-vendor-csscolorparser";
+			targetProxy = CAB84A0F241824F200BE64D4 /* PBXContainerItemProxy */;
 		};
 		CABE5DAC2072FA660003AF3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
